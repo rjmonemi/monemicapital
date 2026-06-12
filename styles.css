@@ -118,6 +118,9 @@ h2 { font-size: clamp(30px, 4vw, 46px); line-height: 1.16; margin-bottom: 28px; 
 }
 .nav.scrolled .nav-inner { height: 64px; }
 .wordmark {
+  display: flex;
+  align-items: center;
+  gap: 13px;
   font-family: var(--serif);
   font-size: 18px;
   font-weight: 600;
@@ -128,6 +131,7 @@ h2 { font-size: clamp(30px, 4vw, 46px); line-height: 1.16; margin-bottom: 28px; 
   z-index: 220;
 }
 .wordmark span { color: var(--bronze-2); }
+.wordmark img { height: 30px; width: auto; display: block; }
 .nav-links { display: flex; align-items: center; gap: 38px; }
 .nav-links a {
   color: rgba(236,233,227,.78);
@@ -541,6 +545,7 @@ footer {
   margin-bottom: 16px;
 }
 .foot-grid .fm span { color: var(--bronze-2); }
+.foot-grid .fm img { height: 44px; width: auto; display: block; margin-bottom: 16px; }
 .foot-grid p { max-width: 36ch; line-height: 1.7; }
 .foot-grid h4 {
   font-family: var(--sans);
